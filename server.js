@@ -30,7 +30,7 @@ app.post('/api/quiz', async (req, res) => {
 
 Generate 10 quiz questions: ${catNote}. Level: ${diffNote}.
 
-Rules: real events only, all 4 options plausible, no tricks.
+Rules: real events only, all 4 options plausible, no tricks. Never reference "search results", "the article" or "the report" in a question — ask about the market event directly.
 
 Return ONLY a JSON array, no markdown:
 [{"question":"...","options":["...","...","...","..."],"answer":0,"explanation":"1-2 sentences","category":"MACRO|FX|RATES|EQUITY|COMMODITIES","source":"Source, ${date}","headline":"..."}]`
